@@ -1,0 +1,15 @@
+About the application
+Assignment 1:
+The application will have a header with the app name on the top left 
+and the navigation menus on the Right side.
+
+I have added a sub heading which will display the screen name and I used "useLocation()" for this.
+
+All the component for this assignment are saved under component folder inside the src folder.
+
+To redirect to pages, i have used Route and Link 
+
+In order to navigate from contact us page, I used "useNavigate()"
+
+
+Creation of Blog component:
