@@ -1,11 +1,7 @@
-// src/components/Blog.js
-
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 const Blog = () => {
   const { postId } = useParams();
-  
-
 
   if (postId == 0) {
     return <div>
