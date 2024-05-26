@@ -1,19 +1,20 @@
 import React from 'react';
+
 import { useNavigate } from 'react-router-dom';
 
-const Contact = () => {
+function Error404() {
   const navigate = useNavigate();
 
   const goToHome = () => {
     navigate('/');
   };
-
   return (
     <div>
-      <p>This is the contact page.</p>
+         <h2>You have redirected to an unknown page</h2>
+         
       <button onClick={goToHome}>Go to Home</button>
     </div>
   );
-};
+}
 
-export default Contact;
+export default Error404;
