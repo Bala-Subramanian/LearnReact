@@ -5,11 +5,14 @@ and the navigation menus on the Right side.
 
 I have added a sub heading which will display the screen name and I used "useLocation()" for this.
 
-All the component for this assignment are saved under component folder inside the src folder.
+All the component for this assignment are saved under Component folder inside the src folder.
 
-To redirect to pages, i have used Route and Link 
+To redirect to pages, i have used Route and Link.
+All the invalid URL's will land on Error component, which has a button for redirecting to home.
 
-In order to navigate from contact us page, I used "useNavigate()"
+In order to navigate to home from contact us and error page, I used "useNavigate()"
 
 
 Creation of Blog component:
+    To save the value passed a postId, I used useParams().
+    Added an extra condition, where a different message will be displayed if the postId = 0
