@@ -6,7 +6,7 @@ const UserList = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Delaying for 2 seconds
+    // Delaying for 0.5 seconds
     setTimeout(() => {
       const data = [
     {id:1,name:'Alice',email:'alice@example.com'},
@@ -16,7 +16,7 @@ const UserList = () => {
     ];
       setUsers(data);
       setIsLoading(false);
-    }, 2000);
+    }, 500);
 
     // Log a message when the component mounts
     console.log('UserList component mounted');
@@ -25,14 +25,17 @@ const UserList = () => {
   return (
     <div className="user-list">
       {isLoading ? (<p>Please wait. Data is loading...</p>) : (
-      <ol>
-      {users.map(user => (
-        <li key={user.id}>
-            <span className="user-name">{user.name}</span>
-            <span className="user-email">{user.email}</span>
-        </li>
-        ))}
-        </ol>)}
+      <div>
+        <p>Below is sample user data list</p> 
+        <ol>
+        {users.map(user => (
+          <li key={user.id}>
+              <span className="user-name">{user.name}</span>
+              <span className="user-email">{user.email}</span>
+          </li>
+          ))}
+          </ol>
+        </div>)}
     </div>
   );
 };
