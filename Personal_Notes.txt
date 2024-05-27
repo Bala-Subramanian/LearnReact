@@ -16,3 +16,9 @@ In order to navigate to home from contact us and error page, I used "useNavigate
 Creation of Blog component:
     To save the value passed a postId, I used useParams().
     Added an extra condition, where a different message will be displayed if the postId = 0
+
+Assignment 2:
+    In the login page, if we pass "admin" as username and password, and click on Handle Auth button, 
+    a div will be displayed.
+
+    For this, I have created a folder named HOC and the relevant values are in it.
