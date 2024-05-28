@@ -1,0 +1,39 @@
+.todo-list {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.todo-item p {
+  margin: 0;
+}
+
+button {
+  background-color: #66CCCC;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #008080;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.5);
+}
